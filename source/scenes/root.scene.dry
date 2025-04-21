@@ -596,6 +596,7 @@ on-arrival: difficulty = 1; resources = 0; dues = 1;
 go-to: 1960_main
 
 @1960_main
+
 Select a statelet to play as.
 
 - @1960_SHL: The German Republic (Karl Schiller)
