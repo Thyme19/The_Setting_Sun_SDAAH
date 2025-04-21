@@ -603,7 +603,7 @@ Select a statelet to play as.
 - @1960_SAX: The Communist Party of Germany (Wilhelm Pieck)
 
 @1960_SHL
-on-arrival: tag = "SHL"
+on-arrival: tag = "SHL";
 //audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_HOHEN_BERGEN_noise_reduced.mp3 music/1928_1930/MarekWeber.mp3 music/1928_1930/BAUERNKAPELLE.mp3 music/1928_1933/DERLINDENBAUM_normalized.mp3 music/1928_1933/ZurSonne_zurFreiheit.mp3 music/1928_1933/arbeiter_marseille.mp3 music/1928_1933/Wann_wir_schreiten_Seit_an_Seit.mp3 music/1930_1933/Internationale-de_normalized.ogg music/1928_1930/LiedDerPompadour.mp3
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
@@ -611,12 +611,12 @@ go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 = 1960
 
 @1960_MEK
-on-arrival: tag = "MEK"
+on-arrival: tag = "MEK";
 new-page: true
 
 = 1960
 
 @1960_SAX
-on-arrival: tag = "SAX"
+on-arrival: tag = "SAX";
 new-page: true
 = 1960
