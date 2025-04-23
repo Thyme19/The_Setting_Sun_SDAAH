@@ -1,0 +1,11 @@
+title: 1964
+subtitle: A new year
+on-arrival: {!
+// see post_event.scene.dry for changes.
+!}
+tags: event
+view-if: year = 1964 and month = 1 and tag = "MEK"
+priority: 2
+max-visits: 1
+
+A new year begins.
