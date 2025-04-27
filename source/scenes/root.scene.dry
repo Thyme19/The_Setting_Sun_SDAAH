@@ -329,8 +329,8 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
-// starting chancellor: Wilhelm Marx
+Q.leader_title = "";
+Q.leader = "";
 Q.chancellor = "Marx";
 Q.chancellor_party = 'Z';
 Q.spd_in_government = 0;
@@ -604,20 +604,20 @@ Select a statelet to play as.
 - @1960_SAX: The Communist Party of Germany (Wilhelm Pieck)
 
 @1960_SHL
-on-arrival: tag = "SHL";
+on-arrival: tag = "SHL"; leader_title = "President"; leader = "Schiller";
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
 = 1960
 
 @1960_MEK
-on-arrival: tag = "MEK";
+on-arrival: tag = "MEK"; leader_title = "Grand Admiral"; leader = "Raeder";
 new-page: true
 
 = 1960
 
 @1960_SAX
-on-arrival: tag = "SAX";
+on-arrival: tag = "SAX"; leader_title = "KPD Chairman"; leader = "Pieck";
 new-page: true
 
 = 1960
