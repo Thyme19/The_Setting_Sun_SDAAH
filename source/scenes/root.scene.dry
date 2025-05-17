@@ -329,7 +329,7 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.leader_title = "";
+Q.leader_title = "Leader";
 Q.leader = "";
 Q.chancellor = "Marx";
 Q.chancellor_party = 'Z';

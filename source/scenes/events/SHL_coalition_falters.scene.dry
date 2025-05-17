@@ -1,0 +1,8 @@
+title: The Coalition Falters
+subtitle: The coalition falters.
+view-if: year = 1961 and month = 6 and tag = "SHL"
+tags: event
+new-page: true
+max-visits: 1
+
+= The Coalition Falters
