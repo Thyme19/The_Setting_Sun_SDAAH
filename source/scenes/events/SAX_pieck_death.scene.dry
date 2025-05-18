@@ -1,5 +1,5 @@
 title: The Death of Wilhelm Pieck
-subtitle: The coalition falters.
+subtitle: A titan passes.
 view-if: year = 1961 and month = 6 and tag = "SAX"
 tags: event
 new-page: true
