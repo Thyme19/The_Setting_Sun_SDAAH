@@ -1,0 +1,46 @@
+title: Poske's Conspiracy
+subtitle: The sword of Damocles has fallen.
+view-if: year = 1961 and month = 6 and tag = "MEK"
+tags: event
+new-page: true
+max-visits: 1
+
+= Poske's Conspiracy
+
+- @success: Within two hours, Rostock is theirs.
+- @failure: They are greeted with sighs and handcuffs.
+
+@success
+subtitle: The conspiracy succeeds.
+unavailable-subtitle: Raeder was prepared for this eventuality.
+on-arrival: leader = "Poske"
+
+The plotters are faced with even less resistance than they accounted for. By the end of the day, Erich Raeder is under house arrest, the Reichswehr's chain of command has been alerted about the change in leadership, and news of the coup reaches civilians only in the form of unverifiable rumours.
+
+Suddenly the undisputed leader of the Reichswehr, Friedrich Poske is careful not to disrupt the delicate balance in the Reichswehr command, and even decides to postpone the announcement of Raeder's "retirement" for a few months. Change is, however, forthcoming - whatever that word means in Mecklenburg.
+
+@failure
+subtitle: The conspiracy fails.
+unavailable-subtitle: Raeder failed to notice what was unfolding around him.
+
+Poske awakens to a knock on his door, having ostensibly been summoned to the Grand Admiral's office because of an important military matter. There, despite his protestations, he is detained.
+
+Decapitated, the conspirators find their plans unravelling. For the time being, at least, Raeder's regime appears secure. The Grand Admiral must now decide what to do with Poske.
+
+- @execution: Execute him.
+- @confinement: Confine him.
+
+@execution
+subtitle: The appropriate punishment.
+go-to: raeder_zombie
+
+The penalty for treason is death, and this is exactly what Friedrich Poske deserves. The news of his execution is extensively publicised by the Reichswehr, as a reminder of how we deal with those that betray the fatherland.
+
+@confinement
+subtitle: Showing mercy may win over the conspiracy's sympathisers.
+
+Though Poske deserves worse, Raeder opts for imprisonment as his former friend's punishment. Poske's allies are forced to accept that the Grand Admiral is here to stay, and the mercy shown to Poske convinces them that they are not in mortal danger. Still, none are daring enough to visit him in prison.
+
+@raeder_zombie
+
+As a result of this betrayal, Raeder sinks even further into paranoia and isolation. Officers are forced to act on their own to prevent the Reichswehr from disintegrating, despite the risk of reprisal from the increasingly wrathful Grand Admiral.
